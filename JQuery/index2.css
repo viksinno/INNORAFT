@@ -1,0 +1,14 @@
+.navbar{
+    background-color: #e5eecc;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+.content{
+    position: fixed;
+    background-color: #dfedff;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    justify-items: center;
+}

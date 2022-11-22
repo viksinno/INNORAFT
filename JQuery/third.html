@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script src="jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+             $(".submit").click(function(){
+                var a = $(".fname").val();
+                if (a == ""||a == "null"){
+                    alert("Please fill all the fields");
+                }
+             });
+              $(".submit").click(function () {
+                var a = $(".fname1").val();
+                if (a == "" || a == "null") {
+                    alert("Please fill all the fields");
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="form">
+        <label>First name:</label><br>
+        <input type="text" class="fname"><br>
+        <label>Last name:</label><br>
+        <input type="text" class="fname1"><br>
+        <br><button class="submit">submit</button>
+    </div>
+</body>
+</html>
