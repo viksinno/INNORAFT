@@ -1,0 +1,11 @@
+.content{
+    font-size: 70px;
+    text-align: center;
+    font-family: arial;
+    font-weight: bolder;
+}
+.form{
+    margin-top: 20px;
+    text-align: center;
+    opacity: 0.8;
+}
