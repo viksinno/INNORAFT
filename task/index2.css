@@ -1,0 +1,55 @@
+.tbl {
+    width: 100%;
+}
+.text {
+    width: 500px;
+    font-size: 35px;
+    opacity: 0.5;
+    background-color: black;
+    color: white;
+}
+
+.text1 {
+    width: 400px;
+    font-size: 35px;
+    opacity: 0.5;
+    background-color: black;
+    color: white;
+}
+
+.text2 {
+    width: 400px;
+    font-size: 35px;
+    opacity: 0.5;
+    background-color: black;
+    color: white;
+}
+.box {
+    float: right;
+    width: 435px;
+    height: 300px;
+    background-color: black;
+    margin-top: -300px;
+    margin-right: 75px;
+}
+.TEXT{
+    display: inline-block;
+}
+/*.text3 {
+    
+} 
+
+.text4 {
+    display: inline-block;
+}
+
+
+.text5 {
+    display: inline-block;
+    
+}
+
+.text6 {
+    display: inline-block;
+
+} */
