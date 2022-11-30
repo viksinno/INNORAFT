@@ -1,0 +1,378 @@
+body{
+    max-width: 71%;
+    margin:0px auto;
+}
+.navbody{
+    /* margin-right: 210px; */
+    float: right;
+
+}
+.navImg{
+    margin-top: 14px;
+    /* margin-left: 200px; */
+}
+.ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin-top: 40px;
+}
+.ul li{
+    font-size: 25px;
+    display: inline;
+    padding: 20px;
+    
+}
+.ul li:hover{
+    color: #8f41d5;
+    text-decoration: underline;
+    text-underline-offset: 0.7em;
+    text-decoration-color: #dd38b4 ;
+}
+.navBtn{
+    all: unset;
+    /* margin-left: 75px; */
+    font-size: 30px;
+    border: 1px solid black;
+    width: 250px;
+    border-radius: 40px;
+    padding: 20px;
+    opacity: 0.5;
+}
+.section1{
+    height:600px
+}
+.text{
+    color:#dd38b4;
+    font-size: 34px;
+    opacity: 0.8;
+}
+.text1{
+    font-family: arial;
+    font-size: 100px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.text2 {
+    font-size: 34px;
+    opacity: 0.6;
+}
+.img2{
+    float: right;
+    margin-top: 200px;
+    /* margin-right: 120px; */
+    /* width: 750px; */
+}
+.bodyF{
+    /* margin-left: 220px; */
+    margin-top: 250px;
+    float: left;
+}
+.second{
+    display: inline-flex;
+    width: 100%;
+    height:300px;
+}
+.sectext{
+    width: 33%;
+}
+.hr{
+    float: left;
+    margin-right: 20px;
+    border: 1px solid #dd38b4;
+    width: 5%;
+}
+.sectext p{
+    color: #8f41d5;
+    font-size: 30px;
+    margin-block-end: 0em;
+}
+.area{
+    opacity: 0.7;
+    font-size: 20px;
+}
+.span{
+    font-size: 20px;
+}
+.img3{
+    float: left;
+}
+.bodyth{
+    margin-top: 60px;
+    float:right;
+    width: 50%;
+}
+.tText{
+    margin-block-end: 0.3em;
+    margin-block-start: 0.3em;
+    font-size: 50px;
+}
+.tText2{
+    font-size: 20px;
+}
+.content{
+    position: relative;
+    left: 135px;
+    top: 305px;
+    display: -webkit-inline-box;
+    float: right;
+}
+.content span{
+    position: absolute;
+    color: #8f41d5;
+    padding: 10px;
+    font-size: 35px;
+}
+.content p{
+    margin-left: 74px;
+    position: absolute;
+    width: 510px;
+}
+.content1{
+    position: relative;
+    left: 135px;
+    top: 395px;
+    display: -webkit-inline-box;
+    float: right;
+}
+.content1 span{
+    position: absolute;
+    color: #8f41d5;
+    padding: 10px;
+    font-size: 35px;
+}
+.content1 p{
+    margin-left: 74px;
+    position: absolute;
+    width: 510px;
+}
+.card{
+    background-color: white;
+    color:#8f41d5;
+    position:relative;
+    height: 285px;
+    width: 350px;
+    box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 30%);
+    transition: 0.9s 0s;
+    border-radius: 30px;
+    margin: 30px;
+    padding: 10px;
+    padding-left: 40px;
+    font-size: 24px;
+    text-align: left;
+}
+.card1{
+    position: absolute;
+    float: right;
+    height: 285px;
+    width: 350px;
+    border-radius: 30px;
+    margin: 30px;
+    right: 230px;
+    top: 68em;
+    /* bottom: -180px; */
+    padding: 10px;
+    padding-left: 40px;
+    font-size: 28px;
+    text-align: left;
+}
+.tbtn{
+    background-color: #8f41d5;
+    color: whitesmoke;
+    border-radius: 20px;
+    border: 1px solid #8f41d5;
+    cursor: pointer;
+    width: 92px;
+    height: 37px;
+}
+.card:hover {
+    background-color: #8f41d5;
+    color: aliceblue;
+    border:1px solid #8f41d5;
+}
+.inline{
+    display: inline-flex;
+}
+.inline-fle{
+    display: inline-flex;
+}
+.content3{
+    position: relative;
+    margin: 30px;
+    margin-bottom: 30px;
+}
+.card2{
+    width: 226px;
+    text-align: center;
+    background-color: aliceblue;
+    position: absolute;
+    top: 321px;
+    left: 138px;
+    box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 30%);
+    transition: 0.1s;
+}
+.card3{
+    width: 226px;
+    text-align: center;
+    background-color: aliceblue;
+    position: absolute;
+    top: 321px;
+    left: 141px;
+    box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 30%);
+    transition: 0.1s;
+}
+.card4{
+    width: 226px;
+    text-align: center;
+    background-color: aliceblue;
+    position: absolute;
+    top: 321px;
+    left: 142px;
+    box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 30%);
+    transition: 0.1s;
+}
+.card5{
+    width: 226px;
+    text-align: center;
+    background-color: aliceblue;
+    position: absolute;
+    top: 320px;
+    left: 138px;
+    box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 30%);
+    transition: 0.1s;
+}
+.card6{
+    width: 226px;
+    text-align: center;
+    background-color: aliceblue;
+    position: absolute;
+    top: 320px;
+    left: 141px;
+    box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 30%);
+    transition: 0.1s;
+}
+.card7{
+    width: 226px;
+    text-align: center;
+    background-color: aliceblue;
+    position: absolute;
+    top: 320px;
+    left: 143px;
+    box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 30%);
+    transition: 0.1s;
+}
+.content3{
+    opacity: 0.7;
+}
+.img8{
+    border-radius: 20px;
+}
+.content3:hover{
+    opacity: 1;
+    color: #8f41d5;
+}
+.tribtn{
+    all: unset;
+    border: 1px solid #8f41d5;
+    color: #8f41d5;
+    text-align: center;
+    margin-left: 567px;
+    width: 140px;
+    border-radius: 25px;
+    font-size: 22px;
+    height: 45px;
+    margin-top: 60px;
+}
+.tribtn:hover{
+    background-color: #8f41d5;
+    border: 1px solid #8f41d5;
+    color: aliceblue;
+
+}
+.text5{
+    font-size: 30px;
+    text-align: center;
+}
+.fifcontent{
+    margin-right: 60px;
+}
+.fif{
+    margin-top: 133px;
+}
+.fifimg{
+    float: left;
+}
+.fifhr{
+    width: 30%;
+    float:left;
+    border: 1px solid #dd38b4;
+}
+.fiftext{
+    padding: 30px;
+    float: right;
+    font-size: 27px;
+}
+.six{
+    width: 80%;
+    height: 100px;
+    background-color: #8f41d5;
+    margin-left: 205px;
+    margin-top: 515px;
+    border-radius: 20px;
+}
+.six p{
+    float: left;
+    font-size: 30px;
+    color: white;
+    padding-left: 40px;
+    margin-top: 40px;
+}
+.six button{
+    all: unset;
+    float: right;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin-right: 25px;
+    height: 42px;
+    width: 188px;
+    font-size: 20px;
+    margin-top: 38px;
+    text-align: center;
+    border: 1px solid aliceblue;
+}
+.six button:hover{
+    background-color: #8f41d5;
+    cursor: pointer;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+}
+.seven{
+    float: left;
+}
+
+.sev{
+    width: 30%;
+    float: left;
+}
+.sevcon{
+    
+    float: right;
+    padding: 27px;
+    padding-right: 81px;
+    float: right;
+    font-size: 19px;
+}
+.sevcon li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+.sevcon p{
+    color: #dd38b4;
+    margin-left: 20px;
+}
+.texlast{
+    margin-top: 20px;
+    float: left;
+}
+.lastimg{
+    float: right;
+}
