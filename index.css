@@ -1,4 +1,4 @@
-body{
+ body{
     max-width: 71%;
     margin:0px auto;
 }
@@ -26,7 +26,7 @@ body{
     color: #8f41d5;
     text-decoration: underline;
     text-underline-offset: 0.7em;
-    text-decoration-color: #dd38b4 ;
+    text-decoration-color: #dd38b4;
 }
 .navBtn{
     all: unset;
@@ -68,11 +68,12 @@ body{
     float: left;
 }
 .second{
-    display: inline-flex;
+    float: left;
     width: 100%;
     height:300px;
 }
 .sectext{
+    float: left;
     width: 33%;
 }
 .hr{
@@ -148,7 +149,7 @@ body{
 .card{
     background-color: white;
     color:#8f41d5;
-    position:relative;
+    float: left;
     height: 285px;
     width: 350px;
     box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 30%);
@@ -190,10 +191,7 @@ body{
     border:1px solid #8f41d5;
 }
 .inline{
-    display: inline-flex;
-}
-.inline-fle{
-    display: inline-flex;
+    float: left;
 }
 .content3{
     position: relative;
@@ -261,6 +259,7 @@ body{
     transition: 0.1s;
 }
 .content3{
+    float: left;
     opacity: 0.7;
 }
 .img8{
@@ -286,11 +285,13 @@ body{
     background-color: #8f41d5;
     border: 1px solid #8f41d5;
     color: aliceblue;
+    cursor: pointer;
 
 }
 .text5{
     font-size: 30px;
     text-align: center;
+    margin-top: 60em;
 }
 .fifcontent{
     margin-right: 60px;
@@ -316,7 +317,7 @@ body{
     height: 100px;
     background-color: #8f41d5;
     margin-left: 205px;
-    margin-top: 515px;
+    margin-top: 30em;
     border-radius: 20px;
 }
 .six p{
